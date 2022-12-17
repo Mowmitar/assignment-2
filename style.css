@@ -1,0 +1,16 @@
+body{font-family: 'Poppins';}
+main{margin-left: 80px;margin-right: 80px;}
+nav a{text-decoration: none;color: black;margin-right: 10px;}
+nav{display: flex;
+justify-content: space-between;padding-top: 87px;}
+#new{font-weight: 700;
+    font-size: 24px;
+}
+button{width: 196px;
+    height: 44px;
+    background: #E02C6D;
+    border-radius: 41px;padding: 10px 24px;
+}
+section{display: flex;margin-top: 150px;}
+.camera{width: 40%;}
+.main{width: 40px;padding-left: 200px;margin-top:0;}
