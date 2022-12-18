@@ -1,5 +1,8 @@
 body{font-family: 'Poppins';}
 main{margin-left: 80px;margin-right: 80px;}
+/*----
+ First div
+ ---- */
 nav a{text-decoration: none;color: black;margin-right: 10px;}
 nav{display: flex;
 justify-content: space-between;padding-top: 87px;}
@@ -11,6 +14,9 @@ justify-content: space-between;padding-top: 87px;}
     background: #E02C6D;
     border-radius: 41px;padding: 10px 24px;
 }
+/*-----
+ Second div
+----- */
 .collection{font-weight: 600;
     font-size: 28px; text-align: center;padding-bottom: 20px;padding-top: 200px;}
 .first{display: flex;margin-top: 150px;}
@@ -48,4 +54,14 @@ margin-top: 150px;color: white;}
 .fa-globe{color: white;}
 .internet{margin-right: 5px;}
      
-     
+@media only screen and (max-width:688px){
+    /* for mobiles */
+    main{width: 100%;padding-right: 10px;}
+    footer{width: 100%;}
+    #new-products{text-align: center;}
+    nav a{display: none;}
+    .first{display: grid;grid-template-columns: repeat(1,fr);}
+    .product-info{display: grid;grid-template-columns: repeat(1,1fr);}
+    .collection{text-align: center;padding-right: 80px;}
+    .gear{display: grid;grid-template-columns: repeat(1,fr);padding-right: 10px;}
+}
